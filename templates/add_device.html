@@ -1,1 +1,16 @@
+{% extends "base.html" %}
 
+{% block content %}
+
+<h2>Add Device</h2>
+
+<form method="POST">
+
+    <input class="form-control mb-2" placeholder="Hostname">
+    <input class="form-control mb-2" placeholder="IP Address">
+
+    <button class="btn btn-success">Add</button>
+
+</form>
+
+{% endblock %}
