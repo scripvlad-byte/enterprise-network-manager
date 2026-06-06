@@ -1,1 +1,18 @@
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
 
+.card {
+    border-radius: 12px;
+}
+
+table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
