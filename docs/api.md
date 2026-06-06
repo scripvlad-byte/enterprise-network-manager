@@ -17,3 +17,22 @@ Returns list of all devices.
     "status": "Online"
   }
 ]
+Future Endpoints (planned)
+POST /devices
+
+Add new device
+
+DELETE /devices/{id}
+
+Remove device
+
+PUT /devices/{id}
+
+Update device information
+
+Status Update Logic
+
+Device status is updated automatically using ICMP ping:
+
+Online → device responds
+Offline → no response
